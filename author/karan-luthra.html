@@ -28,7 +28,38 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="http://blog.karanluthra.in/2014/03/now-powered-by-pelican/">This blog is now powered by Pelican</a></h1>
+                    <h1 class="entry-title"><a href="http://blog.karanluthra.in/2014/05/flipping-bits-not-burgers/">This summer I'm flipping bits, not burgers</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2014-05-31T00:00:00">
+                31-05-2014
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="http://blog.karanluthra.in/author/karan-luthra.html">Karan Luthra</a>
+        </address>
+<p>In <a href="http://blog.karanluthra.in/category/tech">Tech</a>. </p>
+<p>tags: <a href="http://blog.karanluthra.in/tag/c/">c++</a><a href="http://blog.karanluthra.in/tag/gsoc/">gsoc</a><a href="http://blog.karanluthra.in/tag/trojita/">trojita</a><a href="http://blog.karanluthra.in/tag/kde/">kde</a><a href="http://blog.karanluthra.in/tag/foss/">foss</a></p>
+</footer><!-- /.post-info --><p>I wasn't even checking the results that night when I got a congratulatory email from a friend. There was nothing else one could be congratulated for on that night, except for GSoC results. As difficult as it was to believe I found it to be true that my proposal indeed got selected for the 10th <a href="http://www.google-melange.com/gsoc/homepage/google/gsoc2014">Google Summer of Code</a>, for the summers of 2014. I will be working under <a href="http://www.kde.org/">KDE</a> and my <a href="http://www.google-melange.com/gsoc/project/details/google/gsoc2014/luthrak/5685265389584384">proposal</a> aims to improve how <a href="http://trojita.flaska.net">Trojitá</a> sends email over SMTP and make it as robust and capable as the IMAP part, the USP of the email client. :D</p>
+<p>My first contribution to Free and Open Source Software began with a <a href="http://quickgit.kde.org/?p=trojita.git&amp;a=commit&amp;h=6f14132d37666148e2db44be9e051816bb33daca">patch</a> for Trojita in February. It was a feature request that I thought I could work on, and while it took me very long to bring the patch to the quality that could get it merged, it was a different high I experienced when I heard "Ship It!" for the first time in my life, and saw my name in the 'About Trojita' menu of the email client I had started loving to use. </p>
+<p><img alt="About Trojitá - List of Contributors" src="/images/trojita_authors.png" title="About Trojitá - List of Contributors" /></p>
+<p>This is the reward of working with open source projects. You can imagine the impact your code can have on thousands (and millions? :D) of users and this motivates you to improve the patch each time it gets returned from a review by mentors. Another encouragement is that open source projects do not care about your exam scores, your university's reputation, or even your majors for that matter! I was thinking hard how to spend the summers after my final semester and before joining the job I have been offered through campus placement, and Google Summer of Code seemed like the dream option to me. However, I was never too sure about getting selected as I am not an experienced developer, so I kept exploring other options while planning to keep contributing to Trojita at my own, slow pace. </p>
+<p>The first thing I did on the morning after the results night, was clear all the bookmarked interships! I have cleared most of the distractions by now, and got another <a href="http://quickgit.kde.org/?p=trojita.git&amp;a=commit&amp;h=7708aaa7fda2877a868a542e9a1335683c9cbdb7">patch</a> submitted recently. I am still lagging behind schedule, but it's only going to get better from now :)</p>
+<p>If you are even one bit curious about how Open Source projects, GSoC, or Computer Science outside your exam-syllabus works, then keep watching this space. I will try and blog as much as I can about all that I am upto :)</p>
+<p>Cheers to the Summer of 2014! :D</p>
+<p><img alt="GSoC goodies" src="/images/gsoc-diary.jpg" title="GSoC goodies, to begin with :D" /></p><p>There are <a href="http://blog.karanluthra.in/2014/05/flipping-bits-not-burgers/#disqus_thread">comments</a>.</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://blog.karanluthra.in/2014/03/now-powered-by-pelican/" rel="bookmark"
+                           title="Permalink to This blog is now powered by Pelican">This blog is now powered by Pelican</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2014-03-14T00:00:00">
                 14-03-2014
@@ -39,35 +70,10 @@
         </address>
 <p>In <a href="http://blog.karanluthra.in/category/tech">Tech</a>. </p>
 <p>tags: <a href="http://blog.karanluthra.in/tag/pelican/">pelican</a><a href="http://blog.karanluthra.in/tag/python/">python</a><a href="http://blog.karanluthra.in/tag/blogging/">blogging</a><a href="http://blog.karanluthra.in/tag/github/">github</a></p>
-</footer><!-- /.post-info --><p>It has been a while since I migrated this blog from Google's Blogger to <a href="http://blog.getpelican.com/">Pelican</a>, a static web log generator.</p>
-<h3>Pelican?</h3>
-<p>I will make this easy for those who write and read blogs made on Wordpress or Blogger. Pelican is a python program that takes as input your content written in plain text, processes it according to the configuration specified by you, and generates all the required HTML for each of your posts, pages and features. The processing step involves taking care of a lot of things like :</p>
-<ul>
-<li>Generating the CSS by processing the Theme specified by the user</li>
-<li>Building the structure of the web pages from plain-text documents (written in <a href="http://en.wikipedia.org/wiki/Markdown" title="Wikipedia:Markdown">Markdown</a>/<a href="http://en.wikipedia.org/wiki/ReStructuredText" title="Wikipedia:ReStructuredText">reStructuredText</a>)</li>
-<li>Organizing the posts, pages and other content so that each resource is correctly addressed by the right URL</li>
-</ul>
-<h3>Doesn't Blogger do this for us anyway?</h3>
-<p>Yes, it does. What it doesn't do is allow us to style our blogs using customized themes. I once had to edit a "blogger template" to make it look like what I wanted it to for a Birthday Wish book. Trying to make it float was a nightmare! <em>Lots</em> of Ducktape and I dare not touch the EditHTML button again. Lesson learnt: Blogger doesn't like getting customized much.</p>
-<p>Also, Blogger doesn't allow us to host our blogs anywhere else. I felt a little suffocated there. The difference between the time I started my Blogger blog and today is: Now I have my own VPS, I am using and learning to use Git and Github for a lot of things, and I am tired of being in the comfort-zone.</p>
-<h3>So what is under the hood?</h3>
-<ol>
-<li>I am using <a href="http://pages.github.com/">github-pages</a> to host the static web-site generated by pelican. (other cool options: VPS, Dropbox!)</li>
-<li>I am using the default 'notmyidea' theme, but I have been looking at <a href="https://github.com/getpelican/pelican-themes">other themes</a> and will give a custom look to the blog soon.</li>
-<li>The configuration files are version controlled and backed up at <a href="https://github.com/karanluthra/blog">this</a> Github repo.</li>
-<li>I am using Markdown for structuring the content and I <em>love</em> it! </li>
-<li>I am using three categories: Tech, Outdoors, and Misc. The use of tags is going to help readers really pick only what they want to read, as I couldn't convince myself to let the blog not be about <em>everything</em> I do.</li>
-</ol>
-<h3>How easy was to set all this up?</h3>
-<p>It could be <em>easier</em> for someone who had prior experience of using static website generators (Jekyll migrators?). It took me a little time to put all the pieces together, using two different configuration files, one for viewing on the local machine, and the other to publish/deploy. I didn't understand when and how to use the relative links setting, and had broken links for a long while. Another time consuming area was migrating the comments on each post. Blogger doesn't have cool "check out" options, and I had to go the long way of porting comments to Disqus first, and then make it fit the new slug and URL structure. But yes, if you're ready to move out of the Blogger/Wordpress comfort zone, I guess it is fair to let Pelican give you that tough time and the thrill of setting up everything yourself. </p>
-<hr />
-<p>To end this post, I would say it was fun as well as beneficial to have left Blogger behind. Life is better when your blogs work according to you than you working according to Blogger. :D</p>
-<p>The migration will be easier than you think, right now. Let me know if you plan to switch. :)</p><p>There are <a href="http://blog.karanluthra.in/2014/03/now-powered-by-pelican/#disqus_thread">comments</a>.</p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+</footer><!-- /.post-info -->                <p>Customary first post after a migration to a new blogging platform.</p>
+                <a class="readmore" href="http://blog.karanluthra.in/2014/03/now-powered-by-pelican/">read more</a>
+<p>There are <a href="http://blog.karanluthra.in/2014/03/now-powered-by-pelican/#disqus_thread">comments</a>.</p>                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
